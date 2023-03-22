@@ -31,5 +31,6 @@ public class Post {
     // @ManyToOne(fetch = FetchType.LAZY)
     // @JoinColumn(name = "user_id")
     // @JsonIgnore
-    private User user;
+    //private User user;
+    private int user_id;
 }
